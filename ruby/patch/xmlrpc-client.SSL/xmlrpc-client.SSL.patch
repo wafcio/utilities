@@ -52,7 +52,7 @@
 !           @http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 !         end
 !         @http.cert = @cert
-!         @http.key = @timeout
+!         @http.key = @key
 !       end
         @http.read_timeout = @timeout
         @http.open_timeout = @timeout
